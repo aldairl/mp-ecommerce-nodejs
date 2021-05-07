@@ -9,6 +9,20 @@ const mercadoCheckout = {};
 mercadoCheckout.creteReference = async (req, res) => {
     const { body } = req;
 
+    // const jsoss = {
+    //     collection_id: '14763514480',
+    //     collection_status: 'approved',
+    //     payment_id: '14763514480',
+    //     status: 'approved',
+    //     external_reference: 'aldairlunabuitron@gmail.com',
+    //     payment_type: 'account_money',
+    //     merchant_order_id: '2642882267',
+    //     preference_id: '681067803-682374eb-9c25-4d16-9aea-66168d3320dd',
+    //     site_id: 'MCO',
+    //     processing_mode: 'aggregator',
+    //     merchant_account_id: 'null'
+    // }
+
     const preference = {
         items: [
             {
